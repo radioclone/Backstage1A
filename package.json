@@ -1,0 +1,40 @@
+{
+  "name": "retroverse-1-a",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "install:sequence": "npm install @0xsequence/kit @0xsequence/provider @0xsequence/indexer @0xsequence/metadata",
+    "vercel-build": "npm run install:sequence && next build",
+    "postinstall": "npm run install:sequence"
+  },
+  "dependencies": {
+    "@azure/openai": "^2.0.0",
+    "@splinetool/react-spline": "^3.1.0",
+    "@splinetool/runtime": "^1.4.7",
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "@types/three": "^0.176.0",
+    "autoprefixer": "10.4.15",
+    "eslint-config-next": "^15.0.0-rc.0",
+    "ethers": "^6.14.1",
+    "langchain": "^0.3.26",
+    "next": "^15.0.0-rc.0",
+    "react": "^19.0.0-rc-6d3110b4d9-20240531",
+    "react-dom": "^19.0.0-rc-6d3110b4d9-20240531",
+    "socket.io-client": "^4.8.1",
+    "three": "^0.176.0",
+    "web3": "^4.16.0",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3"
+  }
+}

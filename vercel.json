@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["all"],
+  "env": {
+    "NEXT_PUBLIC_SEQUENCE_PROJECT_KEY": "@sequence_project_key",
+    "NEXT_PUBLIC_SEQUENCE_WAAS_URL": "@sequence_waas_url"
+  }
+}
