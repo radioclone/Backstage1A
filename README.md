@@ -4,7 +4,7 @@ A 3D music festival environment with token gating, multi-user chat, agentic ente
 
 ## Project Overview
 
-Retroverse Festival is a web-based 3D environment representing a token-gated music festival with multi-user chat capabilities and AI-powered agents that provide entertainment and interaction. The application features continuous audio streaming via the Web Audio API and is optimized for performance with a loading screen.
+Backspace Festival is a web-based 3D environment representing a token-gated music festival with multi-user chat capabilities and AI-powered agents that provide entertainment and interaction. The application features continuous audio streaming via the Web Audio API and is optimized for performance with a loading screen.
 
 ## Features
 
