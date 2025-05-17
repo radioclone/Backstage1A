@@ -1,4 +1,4 @@
-# Retroverse Festival
+# Backspace Festival
 
 A 3D music festival environment with token gating, multi-user chat, agentic entertainment, and continuous audio via Web Audio API.
 
