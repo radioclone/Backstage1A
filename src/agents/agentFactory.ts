@@ -26,7 +26,7 @@ class AgentFactory {
    */
   private initializeDefaultAgents(): void {
     // Create DJ agent
-    const djAgent = new DJAgent();
+ const djAgent = new DJAgent('DJ MVP');
     this.registerAgent(djAgent);
     
     // Create Crowd agent

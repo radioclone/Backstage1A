@@ -59,8 +59,9 @@ export class DJAgent extends BaseAgent {
     'Festival Anthems'
   ];
   
-  constructor(name: string = 'DJ Retroverse') {
-    super(name, 'dj');
+  constructor(name: string = 'DJ MVP') {
+  super(name, 'dj');
+}
   }
   
   async interact(context: SceneContext): Promise<AgentResponse> {

@@ -147,7 +147,7 @@ export default function ChatInterface(): JSX.Element {
           display: flex;
           flex-direction: column;
           transition: transform 0.3s ease;
-          z-index: 100;
+          z-index: 200; /* Increased z-index to ensure it appears above other elements */
         }
         
         .chat-container.closed {

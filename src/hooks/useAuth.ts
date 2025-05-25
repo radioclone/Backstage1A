@@ -16,6 +16,10 @@ export function useAuth(): {
 } {
   // Get auth state from global store
   const { auth } = useStore();
+
+  // Log the auth state for debugging
+  console.log('Auth State:', auth);
+
   
   // Get authentication service instance
   const authService = AuthenticationService.getInstance();
